@@ -1,0 +1,2 @@
+source D:/ESP-IDF/project/Clock/build/gdbinit/symbols
+source D:/ESP-IDF/project/Clock/build/gdbinit/connect

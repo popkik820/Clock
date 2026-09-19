@@ -47,12 +47,6 @@ void app_main(void)
     //MEMORY功能初始化
     ESP_ERROR_CHECK(HAL_memory_init(i2c0_master));
 
-    HAL_memory_write_intensity(5);
-    uint8_t data[3] = {22,30,00};
-    HAL_memory_write_alarm(data);
-    HAL_memory_write_time_offset(0);
-    HAL_memory_write_date_offset(0);
-
     //LED展示功能初始化
     ESP_ERROR_CHECK(HAL_display_init());
 
